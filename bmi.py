@@ -10,8 +10,8 @@ heightm = height / 100
 # Now convert to meters squared
 heightm2 = heightm * heightm
 
-# Calculate BMI
-BMI = weight / heightm2
+# Calculate BMI, limit result to 2 decimal places
+BMI = round(weight / heightm2, 2)
 
 # Print the result
 print ('Your BMI is: ' + str(BMI))
