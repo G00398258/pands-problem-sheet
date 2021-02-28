@@ -1,4 +1,5 @@
 # Weekly Task for Week 04
+# program that asks the user to input any positive integer and outputs the successive values of the calculations below
 # Author: Gillian Kane-McLoughlin
 
 listInts = []

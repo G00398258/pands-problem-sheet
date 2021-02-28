@@ -26,3 +26,9 @@ After watching the lectures for Week 5, I reattempted this problem using a list 
 Instructions: "Write a program that outputs whether or not today is a weekday". 
 I checked w3schools for help with this problem but needed more examples. 
 I found a solution on https://intellipaat.com/community/5576/how-do-i-get-the-day-of-week-given-a-date-in-python
+
+5) squareroot.py - this is my attempt at the weekly task for Week 6. 
+Instructions: "Write a program that takes a positive floating-point number as input and outputs an approximation of its square root". 
+This was the most challenging weekly task so far. I researched the Newton Method of estimating square roots as suggested. 
+I found the following webpage quite helpful: https://www.geeksforgeeks.org/find-root-of-a-number-using-newtons-method/#:~:text=Let%20N%20be%20any%20number,correct%20square%20root%20of%20N. 
+I then had to take some time to understand the logic, and eventually found a way to solve this problem by setting some acceptable parameters around the approximation and using a while loop and if statement to check the output. 
