@@ -5,6 +5,6 @@
 sentence = input("Please enter a sentence: ")
 
 # Use negative index and stride -2 to output that sentence in reverse order
-# Ref: https://www.digitalocean.com/community/tutorials/how-to-index-and-slice-strings-in-python-3
+# See README file for references
 
 print (sentence[::-2])

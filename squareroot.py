@@ -2,17 +2,16 @@
 # program that takes a positive floating-point number as input and outputs an approximation of its square root
 # Author: Gillian Kane-McLoughlin
 
-# Newton’s Method: Let N be any number, then the square root of N can be given by the formula:
-# root N = 0.5 * (X + (N / X)) where X is any guess which can be assumed to be N or 1
-# Ref: https://www.geeksforgeeks.org/find-root-of-a-number-using-newtons-method/#:~:text=Let%20N%20be%20any%20number,correct%20square%20root%20of%20N
+# See README file for references
 
 n = float(input("Please enter a positive number: "))
 
 def sqrt():
-    guess = 1
+    # Newthon Method: root N = 0.5 * (X + (N / X)) where X is any guess which can be assumed to be N or 1
+    guess = 1 
     approx = round(0.5 * (guess + (n / guess)), 1) # rounding to 1 decimal point as per the example provided
     
-    # Logic: the value of approx squared should be equal or close to the value of n (within a set parameter
+    # Logic: the value of approx squared should be equal or close to the value of n (within a set parameter)
     # setting a parameter of +/-0.5 for the approximation
     lowerParameter = n - 0.5    
     upperParameter = n + 0.5
