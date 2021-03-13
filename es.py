@@ -12,7 +12,7 @@ def letterFrequency(letter):
         text = f.read() 
         # declare count variable of zero to begin with
         count = 0
-        # for loop - iterate through each character & increase count if letter is found
+        # for loop - check each character & increase count if letter is found
         for char in text: 
             if char == letter: 
                 count += 1
@@ -20,5 +20,5 @@ def letterFrequency(letter):
     return count 
   
   
-# call the function and display the count of letter 'e' (I went with lower case as per the instructions)
+# call the function and display the count of letter 'e' (I interpreted the instructions literally as lower case e)
 print(letterFrequency('e')) 
