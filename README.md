@@ -1,7 +1,6 @@
-pands-problem-sheet
-Author: Gillian Kane-McLoughlin
+**Author:** Gillian Kane-McLoughlin
 
-ReadMe file for my GitHub contents for the Programming and Scripting module.
+ReadMe file for my pands-problem-sheet GitHub contents for the Programming and Scripting module's weekly tasks.
 
 **Contents:**
 
