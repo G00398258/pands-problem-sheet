@@ -98,7 +98,7 @@ This task required quite a bit of trial and error. Initially, I made the mistake
 Eventually I plotted the functions one by one and thought this looked best. I then added some colours to distinguish between the different functions and once I was happy with those, I added the labels, title and legend to make it look better.  
 Andrew pointed out in his feedback over the Easter Break that I had not added the image of the plot produced by this program to my github, which I corrected (see plot below).  
 
-![image](C:\Users\gillm\Desktop\Programming\pands-problem-sheet\plot.png)  
+![image](https://github.com/G00398258/pands-problem-sheet/blob/main/plot.png)  
 
 **References:**  
 https://matplotlib.org/stable/gallery/color/named_colors.html  
