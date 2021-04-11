@@ -9,7 +9,7 @@ import datetime
 datetime.datetime.today()
 day = datetime.datetime.today().weekday()
 
-if day == 5 or day == 6: # 5 should be Saturday & 6 Sunday
+if day >= 5: # 5 should be Saturday & 6 Sunday
     print ("It's the Weekend!")
 else:
     print ("Unfortunately, today is a Weekday")
