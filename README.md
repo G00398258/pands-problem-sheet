@@ -1,10 +1,10 @@
-**Author:** Gillian Kane-McLoughlin
+## **Author:** Gillian Kane-McLoughlin
 
 ReadMe file for my pands-problem-sheet GitHub contents for the Programming and Scripting module's weekly tasks.
 
-**Contents:**
+## **Contents:**
 
-## 1) bmi.py - task for Week 2. 
+## 1) bmi.py - task for Week 2  
 
 **Instructions:**  
 "Write a program that calculates somebody's Body Mass Index (BMI) Call the file bmi.py -  
@@ -14,7 +14,7 @@ The inputs are the person's height in centimetres and weight in kilograms The ou
 The biggest challenge with this problem was understanding how BMI is calculated and what conversions on the units of measurement I needed to use, but I found those answers quite easily.  
 I made a change to my first attempt in Week 03 where I limited the result to two decimal places, as per the example provided in Moodle. 
 
-## 2) secondstring.py - task for Week 3.  
+## 2) secondstring.py - task for Week 3  
 
 **Instructions:**  
 "Write a program that takes asks a user to input a string and outputs every second letter in reverse order." 
@@ -26,7 +26,7 @@ I refered to w3schools to get a better understanding of slicing strings, but had
 https://www.digitalocean.com/community/tutorials/how-to-index-and-slice-strings-in-python-3  
 https://www.w3schools.com/python/gloss_python_string_slice.asp
 
-## 3) collatz.py - task for Week 4.
+## 3) collatz.py - task for Week 4  
 
 **Instructions:**  
 "Write a program that asks the user to input any positive integer and outputs the successive values of the following calculation.  
@@ -37,19 +37,23 @@ Have the program end if the current value is one."
 On my first attempt, I could not figure out another way of printing the value "1" as the last output of the while loop without adding a final line of code that printed out 1.  
 After watching the lectures for Week 5, I reattempted this problem using a list method and felt this worked better for this problem.
 
-## 4) weekday.py - task for Week 5. 
+**References:**  
+https://www.programiz.com/python-programming/methods/list/append  
+
+## 4) weekday.py - task for Week 5  
 
 **Instructions:**  
 "Write a program that outputs whether or not today is a weekday." 
 
 **Notes:**  
-I checked w3schools for help with this problem but needed more examples. I learned that I needed to import python's datetime module, and that days are stored with a number (Monday being 0) and was able to solve the problem from there. 
+I checked w3schools for help with this problem but needed more examples. I learned that I needed to import python's datetime module, and that days are stored with a number (Monday being 0) and was able to solve the problem from there.  
+I received some feedback from Andrew over the Easter Break suggesting a better way of writing the code (I was using day ==5 or day ==6) would be day >=5, and I decided to update that line of code.   
 
 **References:**  
 https://intellipaat.com/community/5576/how-do-i-get-the-day-of-week-given-a-date-in-python  
 https://www.w3schools.com/sql/func_mysql_weekday.asp
 
-## 5) squareroot.py - task for Week 6. 
+## 5) squareroot.py - task for Week 6  
 
 **Instructions:**  
 "Write a program that takes a positive floating-point number as input and outputs an approximation of its square root."
@@ -59,12 +63,13 @@ This was the most challenging weekly task so far.
 I researched the Newton Method of estimating square roots as suggested and found the below instructions -  
 "Newton’s Method: Let N be any number, then the square root of N can be given by the formula:  
 root N = 0.5 * (X + (N / X)) where X is any guess which can be assumed to be N or 1."  
-I then had to take some time to understand the logic, and eventually found a way to solve this problem by setting some acceptable parameters around the approximation and using a while loop and if statement to check the output. 
+I then had to take some time to understand the logic, and eventually found a way to solve this problem by setting some acceptable parameters around the approximation and using a while loop and if statement to check the output.  
+Andrew gave me some feedback over the Easter Break that I could make this program more efficient, but this task had taken me a lot longer than the others, so I decided against going back and trying to rewrite it.   
 
 **References:**  
 https://www.geeksforgeeks.org/find-root-of-a-number-using-newtons-method/#:~:text=Let%20N%20be%20any%20number,correct%20square%20root%20of%20N
 
-## 6) es.py - task for Week 7. 
+## 6) es.py - task for Week 7  
 
 **Instructions:**  
 "Write a program that reads in a text file and outputs the number of e's it contains.  
@@ -82,7 +87,7 @@ https://stackoverflow.com/questions/7439145/i-want-to-read-in-a-file-from-the-co
 https://www.geeksforgeeks.org/count-the-number-of-times-a-letter-appears-in-a-text-file-in-python/  
 https://www.tutorialspoint.com/python/python_command_line_arguments.htm
 
-## 7) plottask.py - task for Week 8. 
+## 7) plottask.py - task for Week 8  
 
 **Instructions:**  
 "Write a program called plottask.py that displays a plot of the functions f(x)=x, g(x)=x2 and h(x)=x3 in the range [0, 4] on the one set of axes.  
@@ -90,7 +95,10 @@ Some marks will be given for making the plot look nice."
 
 **Notes:**  
 This task required quite a bit of trial and error. Initially, I made the mistake of trying to plot the three functions all at once. When that didn't work, I thought about plotting one function as a scatter plot, and the other two as line charts, but that looked strange.  
-Eventually I plotted the functions one by one and thought this looked best. I then added some colours to distinguish between the different functions and once I was happy with those, I added the labels, title and legend to make it look better.
+Eventually I plotted the functions one by one and thought this looked best. I then added some colours to distinguish between the different functions and once I was happy with those, I added the labels, title and legend to make it look better.  
+Andrew pointed out in his feedback over the Easter Break that I had not added the image of the plot produced by this program to my github, which I corrected (see plot below).  
+
+![image](C:\Users\gillm\Desktop\Programming\pands-problem-sheet\plot.png)  
 
 **References:**  
 https://matplotlib.org/stable/gallery/color/named_colors.html  
